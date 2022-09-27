@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica;
+}
+
+.topNav {
+  position: relative;
+  height: 50px;
+  padding: 15px;
+}
+
+.leftSide {
+  list-style: none;
+  float: left;
+}
+
+.rightSide {
+  list-style: none;
+  float: right;
+}
+
+.menuItem {
+  display: inline-block;
+  margin: 0 10px;
+  font-family: 13px;
+  vertical-align: top;
+  color: #000;
+  opacity: 0.75;
+}
+
+.signIn {
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  outline: none;
+  background: #4285f4;
+  background: -webkit-linear-gradient(top, #4387fd, #4683ea);
+  color: white;
+  height: 30px;
+  padding: 0 10px;
+}
+
+.main {
+  clear: left;
+  margin-top: 40px;
+}
+
+.mainImage {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.mainImageContainer {
+  text-align: center;
+}
+
+.searchBox {
+  width: 600px;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+}
+
+.searchIcon svg {
+  margin-top: 15px;
+  fill: #9aa0a6;
+  height: 20px;
+  width: 20px;
+  margin-left: 15px;
+}
+
+.textInput {
+  border: 0;
+  outline: 0;
+  height: 20px;
+  vertical-align: middle;
+  width: calc(100% - 50px);
+}
+
+.buttonGroup {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.searchButton {
+  background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  color: #5f6368;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+}

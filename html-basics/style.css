@@ -1,0 +1,22 @@
+#title{
+    color: red;
+}
+.paragraph{
+    color: blue;
+}
+.orange-border{
+    border: 2px solid orange;
+}
+p{
+    text-decoration: line-through;
+}
+.pink-bg{
+    background-color: pink;
+}
+.span{
+    background-color: white;
+    font-weight: bold;
+}
+#red-bg{
+    background-color: red;
+}
