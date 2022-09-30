@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*calculates border into width and height*/
+    box-sizing: border-box;
+}
+.container{
+    height: 500px;
+    background: lightblue;
+
+
+    /*three things to center a div*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item{
+    background: pink;
+    width: 100px;
+    height: 100px;
+    margin: 100px;
+}
