@@ -30,7 +30,7 @@ a:visited {
 a{
     text-decoration: none;
 }
-p, h1, h2, h3, h4{
+*{
     padding: 0;
     margin: 0;
 }
@@ -50,9 +50,10 @@ body{
 }
 section{
     border: 1px var(--purple) solid;
+    border-bottom: none;
 }
 .section-1{
-    margin: 36px;
+    margin: 36px 36px 0 36px;
     padding: 0 10%;
 }
 .navigation{
@@ -127,6 +128,9 @@ footer{
     max-width: 480px;
     min-width: 200px;
 }
+.big-card:hover { box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+.small-card .project-image:hover { box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+
 #case-studies-image{
     background-color: var(--pink);
 }
@@ -230,12 +234,44 @@ footer{
     display: flex;
     justify-content: center;
 }
-#face{
 
-}
-.face{
+.circle{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+.logo{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: var(--white);
+    background: url(images/face.png);
+    background-size: cover;
+    border-radius: 50%;
+}
+.text{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-family: 'B612 Mono', monospace;
+    animation: rotateText 10s linear infinite;
+}
+@keyframes rotateText{
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+.text span{
+    position: absolute;
+    left: 50%;
+    transform-origin: 0 100px;
 }
 .about-me-content{
     display: flex;
@@ -246,4 +282,52 @@ footer{
     padding: 24px;
     border: 1px var(--black) solid;
     border-radius: 24px;
+}
+.resume-download{
+    background-color: var(--mint);
+    padding: 12px;
+    border: 1px var(--black) solid;
+}
+link:visited {
+    color: var(--black);
+}
+link::after{
+    color: var(--black);
+}
+link::before{
+    color: var(--black);
+}
+.circle-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fun-facts{
+    list-style: none;
+}
+
+/*art and graphics*/
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-container{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+.gallery-image:hover{
+ transform: scale(1.036);
+}
+.gallery-image { transition: all .4s ease-in-out; }
+  
+.gallery-image{
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+#art-and-graphics-heading{
+    text-align: center;
 }
