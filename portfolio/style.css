@@ -15,6 +15,7 @@ breakpoint at 1240
     --black: #3A3A3A;
     --red: #C73333;
     --purple: #9F85B8;
+    --dark-purple: #7349b6;
     --light-blue:#ECF3F8;
     --white: #FFFFFF;
     --green: #4A745B;
@@ -25,9 +26,10 @@ breakpoint at 1240
     --yellow: #FEF6DB;
 }
 a:visited {
-    color: black;
+    color: var(--black);
 }
 a{
+    color: var(--black);
     text-decoration: none;
 }
 *{
@@ -297,6 +299,9 @@ link::after{
 link::before{
     color: var(--black);
 }
+a:hover{
+    color: var(--dark-purple)
+}
 .circle-wrapper{
     display: flex;
     justify-content: center;
@@ -456,4 +461,14 @@ link::before{
 #sparkmania-arcade-embed{
     width: 960px;
     height: 584px;
+}
+.resume-download{
+    margin-top: 12px;
+    border-radius: 8px;
+    display: block;
+    text-align: center;
+}
+.about-links{
+    margin-top: 4px;
+    margin-bottom: 0;
 }
