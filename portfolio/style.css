@@ -12,7 +12,7 @@ add alt text
 breakpoint at 1240
 */
 :root {
-    --black: #4D4D4D;
+    --black: #3A3A3A;
     --red: #C73333;
     --purple: #9F85B8;
     --light-blue:#ECF3F8;
@@ -21,7 +21,7 @@ breakpoint at 1240
     --light-blue-bg: #f4fbfd;
     --pink: #FBE6E6;
     --mint: #DDF4ED;
-    --grey: #636363;
+    --grey: #989898;
     --yellow: #FEF6DB;
 }
 a:visited {
@@ -128,8 +128,12 @@ footer{
     max-width: 480px;
     min-width: 200px;
 }
-.big-card:hover { box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
-.small-card .project-image:hover { box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+.big-card:hover { 
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); 
+}
+.small-card .project-image:hover { 
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); 
+}
 
 #case-studies-image{
     background-color: var(--pink);
@@ -217,10 +221,6 @@ footer{
     flex-grow: 2;
     max-width: 320px;
     min-width: 80px;
-}
-.body-text{
-    font-size: 18px;
-
 }
 .footer-link{
     margin: 16px;
@@ -330,4 +330,130 @@ link::before{
 }
 #art-and-graphics-heading{
     text-align: center;
+}
+
+.h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 96px;
+    /* identical to box height */
+    color: var(--black);
+}
+.h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 1px;
+    color: var(--black);
+}
+.project-heading{
+    text-align: center;
+    padding: 12px;
+}
+.h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+    letter-spacing: 1px;
+
+    color: var(--black);
+    margin-bottom: 28px;
+}
+.h4{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+
+    color: var(--black);
+
+}
+.h5{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+
+    color: var(--black);
+    margin-bottom: 28px;
+}
+.h6{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    letter-spacing: 1px;
+    
+    color: var(--grey);    
+}
+.body-text{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--black);
+    margin-bottom: 20px;
+}
+.body-text-bold{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--black);
+}
+.project-content{
+    display: flex;
+    gap: 48px;
+    flex-direction: column;
+}
+.underlined-link{
+    text-decoration: underline;
+}
+.content-image{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+#daily-ui-designs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+#esp:hover{
+    box-shadow: none;
+}
+.three-cols{
+    margin: 36px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.col{
+    width: 33%;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 33%;
+    gap: 16px;
+    align-items: flex-start;
+}
+#sparkmania-arcade-embed{
+    width: 960px;
+    height: 584px;
 }
