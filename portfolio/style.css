@@ -576,6 +576,9 @@ a:hover{
     .col{
         width: 100%;
     }
+    .row{
+        width: 100%;
+    }
 }
  @media (max-width: 480px) {
     .star{
