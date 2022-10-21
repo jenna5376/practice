@@ -1,4 +1,7 @@
 /*colors*/
+html{
+    scroll-behavior: smooth;
+}
 :root {
     --black: #3A3A3A;
     --red: #C73333;
