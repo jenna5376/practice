@@ -16,7 +16,7 @@ function onSubmit(){
 
     submitButton.style.backgroundColor = "light-grey";
 
-    document.getElementById("form").style.transform = "rotate(24deg)";
+    document.getElementById("form").style.transform = "rotate(16deg)";
     document.getElementById("form").style.transition = "transform 0.5s ease-in";
 
     setTimeout(() => {
