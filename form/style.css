@@ -1,6 +1,18 @@
+body{
+    font-family: 'Open Sans';
+}
 #form{
     background-color: aliceblue;
     border: 1px solid darkgrey;
     margin: 100px 400px;
     padding: 80px;
+}
+#text{
+    color: grey;
+}
+#submit{
+    padding: 8px 12px;
+    font-size: 18px;
+    background-color: white;
+    border: 1px grey solid;
 }
