@@ -1,20 +1,19 @@
-let submitButton = document.getElementById("submit")
+let submitButton = document.getElementById("submit");
 submitButton.addEventListener('click', onSubmit);
 
 function onSubmit(){
     let nameBox = document.getElementById("name-input");
-    console.log(nameBox.value);
+    console.log("Name: " + nameBox.value);
     let addressBox = document.getElementById("address-input");
-    console.log(addressBox.value);
+    console.log("Address: " + addressBox.value);
     let ageBox = document.getElementById("age-input");
-    console.log(ageBox.value);
+    console.log("Age: " + ageBox.value);
     let schoolBox = document.getElementById("school-input");
-    console.log(schoolBox.value);
+    console.log("School: " + schoolBox.value);
 
     let textBox = document.getElementById("text");
     textBox.innerText = `Thank you ${nameBox.value}`;
-
-    submitButton.style.backgroundColor = "light-grey";
+    document.getElementById("submit").style.backgroundColor = "LightBlue";
 
     document.getElementById("form").style.transform = "rotate(16deg)";
     document.getElementById("form").style.transition = "transform 0.5s ease-in";
