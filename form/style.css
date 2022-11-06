@@ -2,7 +2,6 @@ body{
     font-family: 'Open Sans';
 }
 #form{
-    background-color: aliceblue;
     border: 1px solid darkgrey;
     margin: 100px 400px;
     padding: 80px;
@@ -15,4 +14,32 @@ body{
     font-size: 18px;
     background-color: white;
     border: 1px grey solid;
+}
+#loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 2s linear infinite;
+    display: none;
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.default-border{
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+.invalid-border{
+    border: 1px solid red;
+    border-radius: 2px;
+}
+.default-outline{
+    outline: 1px solid grey;
+}
+.invalid-outline{
+    outline: 1px solid red;
 }

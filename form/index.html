@@ -10,19 +10,20 @@
 <body>
     <div id = "form">
         <p id = "name">Name:</p>
-        <input id = "name-input" type = "text">
-        <p id = "address">Address:</p>
-        <input id = "address-input" type = "text">
-        <p id = "age">Age:</p>
-        <input id = "age-input" type = "text">
-        <p id = "school">School:</p>
-        <input id = "school-input" type = "text">
+        <input id = "name-input" type = "text" class = "default-border">
+        <p id = "email">Email:</p>
+        <input id = "email-input" type = "text" class = "default-border">
+        <br>
+        <br>
+        <input type="checkbox" name="special-message" id="special-message">
+        <label for="special-message">Get a special cute message (required)</label>
         <br>
         <br>
         <button type = "submit" id = "submit">Submit</button>
+        <div id = "loader"></div>
         <br>
         <br>
-        <div id = "text"></div>
+        <div id = "message"></div>
     </div>
     <script src = "script.js"></script>
 </body>
