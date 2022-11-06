@@ -6,7 +6,7 @@ body {
     height: 100vh;
     font-family: 'Barlow', sans-serif;
     font-weight: light;
-    background-color: #f9f9f3;
+    background-color: #f4f4fc;
     color:rgb(30, 30, 30);
 }
 .line{
@@ -39,7 +39,7 @@ body {
 #input-field{
     width: 100%;
 }
-/*attribute selector, elements with specified attribute*/
+/*attribute selector*/
 input[type="text"]{
     color:rgb(30, 30, 30);
     max-width: 400px;
