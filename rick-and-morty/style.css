@@ -1,0 +1,17 @@
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 40px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.hide{
+    display: none;
+}
