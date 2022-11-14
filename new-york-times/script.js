@@ -17,7 +17,7 @@ fetch(`https://api.nytimes.com/svc/movies/v2/reviews/picks.json${key}`)
         const html = 
         `<ul class = "list-group">
             <a class = "link list-item" href = "${link}">
-                <li>
+                <li class = "inner-list-item">
                     <div class = "info">
                         <p class = "by">${by}</p>
                         <p class = "date">${date}</p>
