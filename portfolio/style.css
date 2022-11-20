@@ -145,7 +145,6 @@ section{
 .section-2{
     padding: 0 12%;
     background-color: var(--white);
-    border-top: none;
 }
 .navigation{
     margin: 32px 0;
@@ -173,6 +172,18 @@ footer{
     left: 64%;
     top: 28%;
     animation: rotation 4s infinite linear;
+}
+.sparkle{
+    position: absolute;
+    z-index: -1;
+    left: 5%;
+    top: 108%;
+}
+.flower{
+    position: absolute;
+    z-index: -1;
+    right: 4%;
+    top: 148%;
 }
 @keyframes rotation {
     from {
@@ -284,12 +295,12 @@ footer{
     position: absolute;
     white-space: nowrap;
     will-change: transform;
-    animation: jenna 8s linear infinite;
+    animation: jenna 12s linear infinite;
 }
   
 @keyframes jenna {
-    from { transform: translateX(-50%); }
-    to { transform: translateX(0%); }
+    from { transform: translateX(0%); }
+    to { transform: translateX(-50%); }
   }
 
 .footer-link{
