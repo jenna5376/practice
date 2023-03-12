@@ -1,4 +1,4 @@
 # Practice
 
-Feel free to ignore this repo~__
+Feel free to ignore this repo~   
 Coding practice 
