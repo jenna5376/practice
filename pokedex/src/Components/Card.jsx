@@ -16,7 +16,7 @@ function Card({pokemon, loading, infoPokemon}) {
                                 <h2>{item.name}</h2>
                             </div>
                         </>
-                    )
+                    ) 
                 }))
             }
         </>
