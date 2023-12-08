@@ -1,0 +1,24 @@
+header, .contact {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  background-color: lightblue;
+  color: rgb(31, 31, 31);
+}
+header button, .contact button {
+  background-color: rgb(204, 202, 241);
+}
+header button:hover, .contact button:hover {
+  background-color: rgb(171, 154, 210);
+}
+header button::after, .contact button::after {
+  content: " Hellooooo";
+}
+
+.contact {
+  background-color: pink;
+  width: 80%;
+}/*# sourceMappingURL=style.css.map */
