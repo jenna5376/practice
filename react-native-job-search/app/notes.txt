@@ -1,0 +1,24 @@
+npx create-expo-app@latest --example with-router
+ ./
+
+ view is like div text is like p
+
+ npm installe expo-font axios react-native-dotenv
+
+running app
+npm install -g expo-cli
+expo-cli start --tunnel
+
+Constants in all caps
+
+click control or command and hover over component to go to the file
+
+button touchableopacity
+
+use expo font for custom font
+
+usecallback like useeffect
+
+router.push to go to new route
+
+use horizontal in flatlist for overflow scroll
