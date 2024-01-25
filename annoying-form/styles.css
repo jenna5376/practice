@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(244, 245, 246);
+}
+input {
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    background-color: white;
+    font-size: 16px;
+    padding: 16px 16px;
+    border-radius: 8px;
+    border: 1px solid rgb(182, 184, 186);
+    width: 320px;
+}
+input::placeholder {
+    color: rgb(156, 158, 162);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.letter-btn {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    font-size: 20px;
+}
+.hidden {
+    display: none;
+}
