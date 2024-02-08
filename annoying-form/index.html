@@ -11,7 +11,15 @@
     <title>Annoying Form</title>
 </head>
 <body>
+    <h1 id="heading">Very Important Form</h1>
+    <p id="deadline-text">Due in <span id="countdown"></span></p>
     <div id="letters" class="hidden"></div>
-    <input id="input" type="text" placeholder="Hi, what's your name :)" readonly>
+    <form id="form">
+        <input id="input" type="text" placeholder="Hi, what's your name :)" readonly>
+        <input id="submit-btn" type="submit" />
+    </form>
+    <div id="complete">
+        <p id="complete-text">Thank you for submitting <span id="name"></span></p>
+    </div>
 </body>
 </html>
